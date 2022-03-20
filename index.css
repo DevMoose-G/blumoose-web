@@ -1,0 +1,42 @@
+#header-img {
+  height: 5em;
+  margin: 0.5em;
+  margin-left: 1em;
+}
+
+#header-title {
+  color: white;
+  display: inline-block;
+  font-size: x-large;
+  font-weight: bold;
+  margin: 0;
+}
+
+.nav {
+  padding: 10px;
+  float: right;
+  margin-top: 1em;
+  margin-bottom: auto;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+
+.nav a:hover {
+  background-color: gray;
+}
+
+.header {
+  background-color: black;
+}
+
+.content {
+  margin: 1em;
+}
+
+body {
+  margin: 0;
+}

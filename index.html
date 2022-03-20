@@ -3,17 +3,28 @@
   <head>
     <title>BluMoose Tech</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <a href=""><img height="200px" src="favicon.png"></a>
-    <h2>Need a Task Done?</h2>
-    <form action="email.php" method="post" enctype="text/plain">
-      Name:<br>
-      <input type="text" name="sname" id="sname"> <br>
-      Task:<br>
-      <input type="textarea" name="task" id="task"><br>
-      <input type="submit" value="Send">
-    </form>
+    <div class="header">
+      <a href="index.html"><img id="header-img" src="favicon.png"></a>
+      <span class="nav">
+        <a href="index.html">Home</a>
+        <a href="creds.html">Credentials</a>
+        <a href="works.html">Past Works</a>
+      </span>
+    </div>
+
+    <div class="content">
+      <h2>Need a Task Done?</h2>
+      <form action="email.php" method="post" enctype="text/plain">
+        Name:<br>
+        <input type="text" name="sname" id="sname"> <br>
+        Task:<br>
+        <input type="textarea" name="task" id="task"><br>
+        <input type="submit" value="Send">
+      </form>
+    </div>
    </body>
 </html>
   </body>
